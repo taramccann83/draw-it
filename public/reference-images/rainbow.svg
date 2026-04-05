@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400">
+  <!-- Sky background hint -->
+  <rect width="400" height="400" fill="#E8F4FD"/>
+  <!-- Sun peeking from top right corner -->
+  <circle cx="365" cy="50" r="40" fill="#FFD700" stroke="#FFA500" stroke-width="3"/>
+  <!-- Sun rays -->
+  <line x1="365" y1="2" x2="365" y2="15" stroke="#FFA500" stroke-width="3" stroke-linecap="round"/>
+  <line x1="388" y1="12" x2="380" y2="22" stroke="#FFA500" stroke-width="3" stroke-linecap="round"/>
+  <line x1="400" y1="35" x2="388" y2="38" stroke="#FFA500" stroke-width="3" stroke-linecap="round"/>
+  <line x1="342" y1="12" x2="350" y2="22" stroke="#FFA500" stroke-width="3" stroke-linecap="round"/>
+  <!-- Rainbow arches - drawn from outermost (red) to innermost (purple) -->
+  <!-- Red arch -->
+  <path d="M30,320 A190,190 0 0 1 370,320" fill="none" stroke="#FF2222" stroke-width="22" stroke-linecap="round"/>
+  <!-- Orange arch -->
+  <path d="M48,320 A172,172 0 0 1 352,320" fill="none" stroke="#FF8800" stroke-width="22" stroke-linecap="round"/>
+  <!-- Yellow arch -->
+  <path d="M68,320 A152,152 0 0 1 332,320" fill="none" stroke="#FFE000" stroke-width="22" stroke-linecap="round"/>
+  <!-- Green arch -->
+  <path d="M88,320 A132,132 0 0 1 312,320" fill="none" stroke="#22CC22" stroke-width="22" stroke-linecap="round"/>
+  <!-- Blue arch -->
+  <path d="M108,320 A112,112 0 0 1 292,320" fill="none" stroke="#2288FF" stroke-width="22" stroke-linecap="round"/>
+  <!-- Purple arch -->
+  <path d="M128,320 A92,92 0 0 1 272,320" fill="none" stroke="#9922CC" stroke-width="22" stroke-linecap="round"/>
+  <!-- White inner fill -->
+  <path d="M148,320 A72,72 0 0 1 252,320 Z" fill="#E8F4FD"/>
+  <!-- Left fluffy cloud -->
+  <ellipse cx="52" cy="318" rx="50" ry="35" fill="white" stroke="#DDDDDD" stroke-width="3"/>
+  <ellipse cx="28" cy="325" rx="35" ry="28" fill="white" stroke="#DDDDDD" stroke-width="3"/>
+  <ellipse cx="75" cy="325" rx="35" ry="28" fill="white" stroke="#DDDDDD" stroke-width="3"/>
+  <ellipse cx="18" cy="335" rx="25" ry="20" fill="white"/>
+  <ellipse cx="85" cy="335" rx="25" ry="20" fill="white"/>
+  <ellipse cx="52" cy="340" rx="55" ry="22" fill="white"/>
+  <!-- Right fluffy cloud -->
+  <ellipse cx="348" cy="318" rx="50" ry="35" fill="white" stroke="#DDDDDD" stroke-width="3"/>
+  <ellipse cx="324" cy="325" rx="35" ry="28" fill="white" stroke="#DDDDDD" stroke-width="3"/>
+  <ellipse cx="372" cy="325" rx="35" ry="28" fill="white" stroke="#DDDDDD" stroke-width="3"/>
+  <ellipse cx="314" cy="335" rx="25" ry="20" fill="white"/>
+  <ellipse cx="382" cy="335" rx="25" ry="20" fill="white"/>
+  <ellipse cx="348" cy="340" rx="55" ry="22" fill="white"/>
+  <!-- Sparkles -->
+  <text x="180" y="250" font-size="18" fill="#FFD700">✦</text>
+  <text x="210" y="240" font-size="14" fill="#FF88CC">✦</text>
+  <text x="155" y="240" font-size="12" fill="#88CCFF">✦</text>
+</svg>

@@ -1,65 +1,117 @@
-import Image from "next/image";
+import { Header } from "@/components/ui/header";
+import { BottomNav } from "@/components/ui/bottom-nav";
 
 export default function Home() {
   return (
-    <div className="flex flex-col flex-1 items-center justify-center bg-zinc-50 font-sans dark:bg-black">
-      <main className="flex flex-1 w-full max-w-3xl flex-col items-center justify-between py-32 px-16 bg-white dark:bg-black sm:items-start">
-        <Image
-          className="dark:invert"
-          src="/next.svg"
-          alt="Next.js logo"
-          width={100}
-          height={20}
-          priority
-        />
-        <div className="flex flex-col items-center gap-6 text-center sm:items-start sm:text-left">
-          <h1 className="max-w-xs text-3xl font-semibold leading-10 tracking-tight text-black dark:text-zinc-50">
-            To get started, edit the page.tsx file.
-          </h1>
-          <p className="max-w-md text-lg leading-8 text-zinc-600 dark:text-zinc-400">
-            Looking for a starting point or more instructions? Head over to{" "}
-            <a
-              href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-              className="font-medium text-zinc-950 dark:text-zinc-50"
-            >
-              Templates
-            </a>{" "}
-            or the{" "}
-            <a
-              href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-              className="font-medium text-zinc-950 dark:text-zinc-50"
-            >
-              Learning
-            </a>{" "}
-            center.
-          </p>
-        </div>
-        <div className="flex flex-col gap-4 text-base font-medium sm:flex-row">
+    <>
+      <Header />
+      <main className="pt-24 pb-40 px-4 sm:px-6 max-w-5xl mx-auto space-y-8">
+        {/* Hero Card */}
+        <section className="group bg-surface-container-lowest rounded-xl p-8 shadow-sm relative overflow-hidden">
+          <div className="flex flex-col items-center text-center gap-4">
+            {/* Hero illustration placeholder */}
+            <div className="w-48 h-48 rounded-full bg-primary-container flex items-center justify-center group-hover:rotate-0 rotate-2 transition-transform duration-500">
+              <span
+                className="material-symbols-outlined text-primary text-[80px]"
+                style={{ fontVariationSettings: "'FILL' 1" }}
+              >
+                brush
+              </span>
+            </div>
+            <h1 className="text-4xl md:text-5xl font-black font-headline leading-tight tracking-tight">
+              Ready to{" "}
+              <span className="bg-gradient-to-r from-primary to-secondary-fixed-dim bg-clip-text text-transparent">
+                Create
+              </span>
+              ?
+            </h1>
+            <p className="text-lg leading-relaxed text-on-surface-variant max-w-md">
+              Grab your digital brush and let your imagination run wild. Every
+              stroke is a masterpiece waiting to happen!
+            </p>
+          </div>
+        </section>
+
+        {/* Action Buttons */}
+        <section className="space-y-4">
+          {/* Play Solo */}
           <a
-            className="flex h-12 w-full items-center justify-center gap-2 rounded-full bg-foreground px-5 text-background transition-colors hover:bg-[#383838] dark:hover:bg-[#ccc] md:w-[158px]"
-            href="https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
+            href="/play"
+            className="relative group block h-44 rounded-xl overflow-hidden active:scale-95 transition-all duration-300"
           >
-            <Image
-              className="dark:invert"
-              src="/vercel.svg"
-              alt="Vercel logomark"
-              width={16}
-              height={16}
-            />
-            Deploy Now
+            <div className="absolute inset-0 bg-gradient-to-br from-primary via-[#d946ef] to-[#8b5cf6] p-[3px] rounded-xl">
+              <div className="w-full h-full bg-surface-container-lowest rounded-[calc(0.75rem-2px)] flex flex-col items-center justify-center gap-3 transition-colors group-hover:bg-transparent">
+                <span
+                  className="material-symbols-outlined text-primary text-[48px] group-hover:text-white transition-colors"
+                  style={{ fontVariationSettings: "'FILL' 1" }}
+                >
+                  person
+                </span>
+                <span className="text-2xl font-black font-headline text-on-surface group-hover:text-white transition-colors">
+                  PLAY SOLO
+                </span>
+              </div>
+            </div>
           </a>
+
+          {/* Play With Friends */}
           <a
-            className="flex h-12 w-full items-center justify-center rounded-full border border-solid border-black/[.08] px-5 transition-colors hover:border-transparent hover:bg-black/[.04] dark:border-white/[.145] dark:hover:bg-[#1a1a1a] md:w-[158px]"
-            href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
+            href="/multiplayer"
+            className="relative group block h-44 rounded-xl overflow-hidden active:scale-95 transition-all duration-300"
           >
-            Documentation
+            <div className="absolute inset-0 bg-gradient-to-br from-tertiary via-[#06b6d4] to-[#10b981] p-[3px] rounded-xl">
+              <div className="w-full h-full bg-surface-container-lowest rounded-[calc(0.75rem-2px)] flex flex-col items-center justify-center gap-3 transition-colors group-hover:bg-transparent">
+                <span
+                  className="material-symbols-outlined text-tertiary text-[48px] group-hover:text-white transition-colors"
+                  style={{ fontVariationSettings: "'FILL' 1" }}
+                >
+                  group
+                </span>
+                <span className="text-2xl font-black font-headline text-on-surface group-hover:text-white transition-colors">
+                  PLAY WITH FRIENDS
+                </span>
+              </div>
+            </div>
           </a>
-        </div>
+        </section>
+
+        {/* Community Favorites */}
+        <section>
+          <div className="flex items-baseline justify-between mb-4">
+            <h2 className="text-2xl font-extrabold font-headline">
+              Community Favorites
+            </h2>
+            <a
+              href="/gallery"
+              className="text-primary font-semibold text-sm hover:underline"
+            >
+              See Gallery
+            </a>
+          </div>
+          <div className="grid grid-cols-2 md:grid-cols-4 gap-3">
+            {[
+              { bg: "bg-primary-container", icon: "pets" },
+              { bg: "bg-tertiary-container", icon: "directions_car" },
+              { bg: "bg-secondary-container", icon: "headphones" },
+              { bg: "bg-surface-container-high", icon: "star" },
+            ].map((item, i) => (
+              <div
+                key={i}
+                className={`aspect-square rounded-lg overflow-hidden ${
+                  item.bg
+                } flex items-center justify-center hover:shadow-md transition-shadow ${
+                  i % 2 === 1 ? "translate-y-4" : ""
+                }`}
+              >
+                <span className="material-symbols-outlined text-on-surface-variant text-[40px]">
+                  {item.icon}
+                </span>
+              </div>
+            ))}
+          </div>
+        </section>
       </main>
-    </div>
+      <BottomNav />
+    </>
   );
 }

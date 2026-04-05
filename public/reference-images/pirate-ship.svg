@@ -1,0 +1,81 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400">
+  <!-- Sky -->
+  <rect width="400" height="400" fill="#A8D8EA"/>
+  <!-- Stylized waves -->
+  <path d="M0,305 Q25,290 50,305 Q75,320 100,305 Q125,290 150,305 Q175,320 200,305 Q225,290 250,305 Q275,320 300,305 Q325,290 350,305 Q375,320 400,305 L400,400 L0,400 Z" fill="#2277CC"/>
+  <path d="M0,320 Q30,308 60,320 Q90,332 120,320 Q150,308 180,320 Q210,332 240,320 Q270,308 300,320 Q330,332 360,320 Q385,310 400,318 L400,400 L0,400 Z" fill="#1A66BB"/>
+  <path d="M0,338 Q40,325 80,338 Q120,350 160,338 Q200,325 240,338 Q280,350 320,338 Q360,325 400,338 L400,400 L0,400 Z" fill="#1555AA"/>
+  <!-- Ship hull (wooden, brown) -->
+  <path d="M45,300 Q50,255 70,248 L330,248 Q350,255 355,300 Q340,320 200,325 Q60,320 45,300 Z" fill="#8B4513" stroke="#4A2000" stroke-width="5"/>
+  <!-- Hull plank lines -->
+  <path d="M60,265 Q200,260 340,265" stroke="#5C2A00" stroke-width="2.5"/>
+  <path d="M52,280 Q200,274 348,280" stroke="#5C2A00" stroke-width="2.5"/>
+  <path d="M47,295 Q200,288 353,295" stroke="#5C2A00" stroke-width="2.5"/>
+  <path d="M46,310 Q200,302 354,310" stroke="#5C2A00" stroke-width="2.5"/>
+  <!-- Hull vertical plank lines -->
+  <line x1="110" y1="248" x2="100" y2="322" stroke="#5C2A00" stroke-width="2"/>
+  <line x1="160" y1="248" x2="152" y2="324" stroke="#5C2A00" stroke-width="2"/>
+  <line x1="200" y1="248" x2="200" y2="325" stroke="#5C2A00" stroke-width="2"/>
+  <line x1="240" y1="248" x2="248" y2="324" stroke="#5C2A00" stroke-width="2"/>
+  <line x1="290" y1="248" x2="300" y2="322" stroke="#5C2A00" stroke-width="2"/>
+  <!-- Hull top rail -->
+  <rect x="65" y="240" width="270" height="14" rx="4" fill="#A05520" stroke="#4A2000" stroke-width="4"/>
+  <!-- Cannon holes -->
+  <ellipse cx="105" cy="280" rx="12" ry="9" fill="#1A0A00" stroke="#4A2000" stroke-width="2"/>
+  <ellipse cx="200" cy="279" rx="12" ry="9" fill="#1A0A00" stroke="#4A2000" stroke-width="2"/>
+  <ellipse cx="295" cy="280" rx="12" ry="9" fill="#1A0A00" stroke="#4A2000" stroke-width="2"/>
+  <!-- Figurehead at bow (left) -->
+  <path d="M65,255 Q40,270 35,295 Q38,305 50,302 Q60,295 65,280 Z" fill="#CC8844" stroke="#4A2000" stroke-width="3"/>
+  <!-- Figurehead detail -->
+  <circle cx="42" cy="285" r="8" fill="#FFCC88" stroke="#4A2000" stroke-width="2"/>
+  <!-- Front mast (foremast) -->
+  <line x1="130" y1="248" x2="130" y2="100" stroke="#6B3A00" stroke-width="10" stroke-linecap="round"/>
+  <!-- Main mast (tallest) -->
+  <line x1="220" y1="248" x2="220" y2="45" stroke="#6B3A00" stroke-width="12" stroke-linecap="round"/>
+  <!-- Mast crossbars -->
+  <line x1="90" y1="128" x2="170" y2="128" stroke="#6B3A00" stroke-width="7" stroke-linecap="round"/>
+  <line x1="165" y1="175" x2="95" y2="175" stroke="#6B3A00" stroke-width="6" stroke-linecap="round"/>
+  <line x1="168" y1="80" x2="272" y2="80" stroke="#6B3A00" stroke-width="7" stroke-linecap="round"/>
+  <line x1="165" y1="128" x2="275" y2="128" stroke="#6B3A00" stroke-width="7" stroke-linecap="round"/>
+  <line x1="170" y1="175" x2="270" y2="175" stroke="#6B3A00" stroke-width="6" stroke-linecap="round"/>
+  <!-- Front sail (foremast) -->
+  <path d="M92,130 Q100,155 95,175 L168,175 Q165,155 170,130 Z" fill="#F5E6CC" stroke="#8B6020" stroke-width="3"/>
+  <!-- Front small topsail -->
+  <path d="M95,82 Q100,103 92,128 L168,128 Q163,103 170,82 Z" fill="#F5E6CC" stroke="#8B6020" stroke-width="3"/>
+  <!-- Main sail (big, with skull and crossbones) -->
+  <path d="M170,82 Q175,120 170,175 L270,175 Q265,120 272,82 Z" fill="#F5E6CC" stroke="#8B6020" stroke-width="3"/>
+  <!-- Skull on main sail -->
+  <circle cx="220" cy="118" r="20" fill="#1A1A1A"/>
+  <!-- Skull eye sockets -->
+  <ellipse cx="212" cy="114" rx="5" ry="6" fill="white"/>
+  <ellipse cx="228" cy="114" rx="5" ry="6" fill="white"/>
+  <!-- Skull nose -->
+  <polygon points="220,120 216,128 224,128" fill="white"/>
+  <!-- Skull teeth -->
+  <rect x="209" y="130" width="6" height="7" rx="1" fill="white"/>
+  <rect x="217" y="130" width="6" height="7" rx="1" fill="white"/>
+  <rect x="225" y="130" width="6" height="7" rx="1" fill="white"/>
+  <!-- Crossbones -->
+  <line x1="197" y1="148" x2="243" y2="162" stroke="#1A1A1A" stroke-width="5" stroke-linecap="round"/>
+  <line x1="197" y1="162" x2="243" y2="148" stroke="#1A1A1A" stroke-width="5" stroke-linecap="round"/>
+  <circle cx="195" cy="147" r="5" fill="#1A1A1A"/>
+  <circle cx="245" cy="147" r="5" fill="#1A1A1A"/>
+  <circle cx="195" cy="163" r="5" fill="#1A1A1A"/>
+  <circle cx="245" cy="163" r="5" fill="#1A1A1A"/>
+  <!-- Main topsail -->
+  <path d="M170,45 Q175,62 170,80 L272,80 Q268,62 270,45 Z" fill="#F5E6CC" stroke="#8B6020" stroke-width="3"/>
+  <!-- Jolly Roger flag on top mast -->
+  <line x1="220" y1="45" x2="220" y2="18" stroke="#4A2000" stroke-width="4"/>
+  <path d="M220,18 L260,28 L220,38 Z" fill="#1A1A1A" stroke="#000000" stroke-width="2"/>
+  <!-- Mini skull on flag -->
+  <circle cx="242" cy="28" r="6" fill="white"/>
+  <ellipse cx="239" cy="27" rx="2" ry="2.5" fill="#1A1A1A"/>
+  <ellipse cx="245" cy="27" rx="2" ry="2.5" fill="#1A1A1A"/>
+  <!-- Rope rigging lines -->
+  <line x1="130" y1="100" x2="220" y2="80" stroke="#886633" stroke-width="2"/>
+  <line x1="130" y1="128" x2="220" y2="128" stroke="#886633" stroke-width="2"/>
+  <line x1="130" y1="175" x2="220" y2="175" stroke="#886633" stroke-width="2"/>
+  <line x1="70" y1="248" x2="130" y2="100" stroke="#886633" stroke-width="2"/>
+  <line x1="220" y1="45" x2="130" y2="175" stroke="#886633" stroke-width="2" opacity="0.6"/>
+  <line x1="270" y1="248" x2="220" y2="80" stroke="#886633" stroke-width="2" opacity="0.6"/>
+</svg>

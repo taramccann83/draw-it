@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400">
+  <!-- Green stem -->
+  <path d="M200,300 Q195,260 200,200" stroke="#3A8A00" stroke-width="10" fill="none" stroke-linecap="round"/>
+  <!-- Left leaf -->
+  <path d="M200,270 Q160,250 145,220 Q165,230 200,255" fill="#44AA00" stroke="#2A6A00" stroke-width="3"/>
+  <!-- Leaf vein -->
+  <path d="M200,266 Q170,248 150,224" stroke="#2A6A00" stroke-width="1.5" fill="none"/>
+  <!-- Right leaf -->
+  <path d="M200,250 Q240,230 255,200 Q235,210 200,238" fill="#44AA00" stroke="#2A6A00" stroke-width="3"/>
+  <!-- Leaf vein -->
+  <path d="M200,246 Q233,228 252,204" stroke="#2A6A00" stroke-width="1.5" fill="none"/>
+  <!-- Five big pink/magenta petals -->
+  <!-- Top petal -->
+  <ellipse cx="200" cy="120" rx="38" ry="52" fill="#FF69B4" stroke="#C2185B" stroke-width="4"/>
+  <!-- Top-right petal -->
+  <ellipse cx="249" cy="148" rx="38" ry="52" fill="#FF1493" stroke="#C2185B" stroke-width="4" transform="rotate(72 249 148)"/>
+  <!-- Bottom-right petal -->
+  <ellipse cx="230" cy="207" rx="38" ry="52" fill="#FF69B4" stroke="#C2185B" stroke-width="4" transform="rotate(144 230 207)"/>
+  <!-- Bottom-left petal -->
+  <ellipse cx="170" cy="207" rx="38" ry="52" fill="#FF1493" stroke="#C2185B" stroke-width="4" transform="rotate(216 170 207)"/>
+  <!-- Top-left petal -->
+  <ellipse cx="151" cy="148" rx="38" ry="52" fill="#FF69B4" stroke="#C2185B" stroke-width="4" transform="rotate(288 151 148)"/>
+  <!-- Yellow circular center -->
+  <circle cx="200" cy="168" r="48" fill="#FFE033" stroke="#CC8800" stroke-width="5"/>
+  <!-- Center inner ring -->
+  <circle cx="200" cy="168" r="36" fill="#FFD700" stroke="#CC8800" stroke-width="2"/>
+  <!-- Happy face on center -->
+  <!-- Eyes -->
+  <circle cx="186" cy="160" r="6" fill="#5C3000"/>
+  <circle cx="214" cy="160" r="6" fill="#5C3000"/>
+  <circle cx="188" cy="158" r="2" fill="white"/>
+  <circle cx="216" cy="158" r="2" fill="white"/>
+  <!-- Smile -->
+  <path d="M183,178 Q200,193 217,178" stroke="#5C3000" stroke-width="4" fill="none" stroke-linecap="round"/>
+  <!-- Rosy cheeks -->
+  <ellipse cx="174" cy="175" rx="12" ry="8" fill="#FF8FAB" opacity="0.5"/>
+  <ellipse cx="226" cy="175" rx="12" ry="8" fill="#FF8FAB" opacity="0.5"/>
+  <!-- Center dots -->
+  <circle cx="200" cy="148" r="3" fill="#CC8800"/>
+  <circle cx="200" cy="188" r="3" fill="#CC8800"/>
+  <circle cx="180" cy="168" r="3" fill="#CC8800"/>
+  <circle cx="220" cy="168" r="3" fill="#CC8800"/>
+</svg>

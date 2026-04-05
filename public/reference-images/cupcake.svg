@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400">
+  <!-- Paper wrapper -->
+  <path d="M130,290 Q140,230 150,220 L250,220 Q260,230 270,290 Z" fill="#C0392B" stroke="#5C1A1A" stroke-width="4" stroke-linejoin="round"/>
+  <!-- Wrapper ridges -->
+  <line x1="155" y1="222" x2="148" y2="288" stroke="#8B0000" stroke-width="2" opacity="0.5"/>
+  <line x1="168" y1="220" x2="162" y2="289" stroke="#8B0000" stroke-width="2" opacity="0.5"/>
+  <line x1="181" y1="220" x2="176" y2="290" stroke="#8B0000" stroke-width="2" opacity="0.5"/>
+  <line x1="194" y1="220" x2="190" y2="290" stroke="#8B0000" stroke-width="2" opacity="0.5"/>
+  <line x1="207" y1="220" x2="204" y2="290" stroke="#8B0000" stroke-width="2" opacity="0.5"/>
+  <line x1="220" y1="220" x2="218" y2="290" stroke="#8B0000" stroke-width="2" opacity="0.5"/>
+  <line x1="233" y1="220" x2="233" y2="289" stroke="#8B0000" stroke-width="2" opacity="0.5"/>
+  <line x1="246" y1="222" x2="247" y2="288" stroke="#8B0000" stroke-width="2" opacity="0.5"/>
+  <!-- Wavy top edge of wrapper -->
+  <path d="M135,230 Q145,220 155,230 Q165,240 175,230 Q185,220 195,230 Q205,240 215,230 Q225,220 235,230 Q245,240 255,230 Q263,222 265,228" fill="#D44333" stroke="#5C1A1A" stroke-width="3" stroke-linejoin="round"/>
+  <!-- Pink frosting swirl (soft serve style) -->
+  <path d="M155,215 Q155,160 200,155 Q245,160 245,215" fill="#FFB3C6" stroke="#C2185B" stroke-width="4"/>
+  <path d="M165,210 Q168,175 200,170 Q232,175 235,210" fill="#FF85A1" stroke="#C2185B" stroke-width="3"/>
+  <path d="M178,205 Q182,183 200,180 Q218,183 222,205" fill="#FFB3C6" stroke="#C2185B" stroke-width="3"/>
+  <path d="M190,200 Q194,190 200,188 Q206,190 210,200" fill="#FF85A1" stroke="#C2185B" stroke-width="2"/>
+  <!-- Tip of swirl -->
+  <ellipse cx="200" cy="155" rx="15" ry="12" fill="#FF85A1" stroke="#C2185B" stroke-width="3"/>
+  <!-- Colorful sprinkles on frosting -->
+  <rect x="170" y="190" width="14" height="5" rx="2" fill="#FF4444" transform="rotate(-30 177 192)"/>
+  <rect x="190" y="168" width="14" height="5" rx="2" fill="#44BBFF" transform="rotate(20 197 170)"/>
+  <rect x="213" y="175" width="14" height="5" rx="2" fill="#44DD44" transform="rotate(-50 220 177)"/>
+  <rect x="222" y="193" width="14" height="5" rx="2" fill="#FFAA00" transform="rotate(10 229 195)"/>
+  <rect x="178" y="175" width="14" height="5" rx="2" fill="#CC44FF" transform="rotate(40 185 177)"/>
+  <rect x="200" y="194" width="14" height="5" rx="2" fill="#FF88AA" transform="rotate(-20 207 196)"/>
+  <rect x="205" y="162" width="14" height="5" rx="2" fill="#FF4444" transform="rotate(55 212 164)"/>
+  <rect x="183" y="183" width="14" height="5" rx="2" fill="#44AAFF" transform="rotate(-15 190 185)"/>
+  <!-- Little star on top -->
+  <polygon points="200,130 205,145 220,145 208,154 213,169 200,161 187,169 192,154 180,145 195,145" fill="#FFD700" stroke="#FFA500" stroke-width="2"/>
+  <!-- Bottom of cupcake base -->
+  <path d="M130,290 Q200,300 270,290" fill="none" stroke="#5C1A1A" stroke-width="4"/>
+</svg>

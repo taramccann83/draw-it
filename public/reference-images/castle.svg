@@ -1,0 +1,87 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400">
+  <!-- Sky -->
+  <rect width="400" height="400" fill="#C8E8FF"/>
+  <!-- Ground -->
+  <rect x="0" y="360" width="400" height="40" fill="#5CB85C"/>
+  <!-- Left tower base -->
+  <rect x="30" y="155" width="90" height="215" fill="#B0B8C0" stroke="#556677" stroke-width="4"/>
+  <!-- Right tower base -->
+  <rect x="280" y="155" width="90" height="215" fill="#B0B8C0" stroke="#556677" stroke-width="4"/>
+  <!-- Main wall -->
+  <rect x="100" y="210" width="200" height="160" fill="#C0C8D0" stroke="#556677" stroke-width="4"/>
+  <!-- Stone texture lines on main wall -->
+  <line x1="100" y1="235" x2="300" y2="235" stroke="#8899AA" stroke-width="2"/>
+  <line x1="100" y1="265" x2="300" y2="265" stroke="#8899AA" stroke-width="2"/>
+  <line x1="100" y1="295" x2="300" y2="295" stroke="#8899AA" stroke-width="2"/>
+  <line x1="100" y1="325" x2="300" y2="325" stroke="#8899AA" stroke-width="2"/>
+  <line x1="150" y1="210" x2="150" y2="235" stroke="#8899AA" stroke-width="2"/>
+  <line x1="200" y1="210" x2="200" y2="235" stroke="#8899AA" stroke-width="2"/>
+  <line x1="250" y1="210" x2="250" y2="235" stroke="#8899AA" stroke-width="2"/>
+  <line x1="125" y1="235" x2="125" y2="265" stroke="#8899AA" stroke-width="2"/>
+  <line x1="175" y1="235" x2="175" y2="265" stroke="#8899AA" stroke-width="2"/>
+  <line x1="225" y1="235" x2="225" y2="265" stroke="#8899AA" stroke-width="2"/>
+  <line x1="275" y1="235" x2="275" y2="265" stroke="#8899AA" stroke-width="2"/>
+  <line x1="140" y1="265" x2="140" y2="295" stroke="#8899AA" stroke-width="2"/>
+  <line x1="190" y1="265" x2="190" y2="295" stroke="#8899AA" stroke-width="2"/>
+  <line x1="240" y1="265" x2="240" y2="295" stroke="#8899AA" stroke-width="2"/>
+  <!-- Stone texture on left tower -->
+  <line x1="30" y1="195" x2="120" y2="195" stroke="#8899AA" stroke-width="2"/>
+  <line x1="30" y1="225" x2="120" y2="225" stroke="#8899AA" stroke-width="2"/>
+  <line x1="30" y1="255" x2="120" y2="255" stroke="#8899AA" stroke-width="2"/>
+  <line x1="30" y1="285" x2="120" y2="285" stroke="#8899AA" stroke-width="2"/>
+  <line x1="30" y1="315" x2="120" y2="315" stroke="#8899AA" stroke-width="2"/>
+  <line x1="75" y1="155" x2="75" y2="195" stroke="#8899AA" stroke-width="2"/>
+  <!-- Stone texture on right tower -->
+  <line x1="280" y1="195" x2="370" y2="195" stroke="#8899AA" stroke-width="2"/>
+  <line x1="280" y1="225" x2="370" y2="225" stroke="#8899AA" stroke-width="2"/>
+  <line x1="280" y1="255" x2="370" y2="255" stroke="#8899AA" stroke-width="2"/>
+  <line x1="280" y1="285" x2="370" y2="285" stroke="#8899AA" stroke-width="2"/>
+  <line x1="280" y1="315" x2="370" y2="315" stroke="#8899AA" stroke-width="2"/>
+  <line x1="325" y1="155" x2="325" y2="195" stroke="#8899AA" stroke-width="2"/>
+  <!-- Left tower crenellations (battlements) -->
+  <rect x="30" y="130" width="18" height="28" fill="#B0B8C0" stroke="#556677" stroke-width="4"/>
+  <rect x="58" y="130" width="18" height="28" fill="#B0B8C0" stroke="#556677" stroke-width="4"/>
+  <rect x="86" y="130" width="18" height="28" fill="#B0B8C0" stroke="#556677" stroke-width="4"/>
+  <!-- Right tower crenellations -->
+  <rect x="280" y="130" width="18" height="28" fill="#B0B8C0" stroke="#556677" stroke-width="4"/>
+  <rect x="308" y="130" width="18" height="28" fill="#B0B8C0" stroke="#556677" stroke-width="4"/>
+  <rect x="336" y="130" width="18" height="28" fill="#B0B8C0" stroke="#556677" stroke-width="4"/>
+  <!-- Main wall battlements -->
+  <rect x="108" y="192" width="18" height="22" fill="#C0C8D0" stroke="#556677" stroke-width="4"/>
+  <rect x="136" y="192" width="18" height="22" fill="#C0C8D0" stroke="#556677" stroke-width="4"/>
+  <rect x="164" y="192" width="18" height="22" fill="#C0C8D0" stroke="#556677" stroke-width="4"/>
+  <rect x="218" y="192" width="18" height="22" fill="#C0C8D0" stroke="#556677" stroke-width="4"/>
+  <rect x="246" y="192" width="18" height="22" fill="#C0C8D0" stroke="#556677" stroke-width="4"/>
+  <rect x="274" y="192" width="18" height="22" fill="#C0C8D0" stroke="#556677" stroke-width="4"/>
+  <!-- Left tower pointed roof (blue) -->
+  <polygon points="75,40 30,158 120,158" fill="#4488CC" stroke="#224488" stroke-width="4"/>
+  <!-- Right tower pointed roof (purple) -->
+  <polygon points="325,40 280,158 370,158" fill="#9944CC" stroke="#552288" stroke-width="4"/>
+  <!-- Left tower flag -->
+  <line x1="75" y1="40" x2="75" y2="10" stroke="#444444" stroke-width="3"/>
+  <polygon points="75,10 100,18 75,26" fill="#FF4444" stroke="#880000" stroke-width="2"/>
+  <!-- Right tower flag -->
+  <line x1="325" y1="40" x2="325" y2="10" stroke="#444444" stroke-width="3"/>
+  <polygon points="325,10 350,18 325,26" fill="#44AA44" stroke="#008800" stroke-width="2"/>
+  <!-- Large arched wooden door at center -->
+  <path d="M168,370 L168,280 Q168,255 200,255 Q232,255 232,280 L232,370 Z" fill="#8B4513" stroke="#4A2000" stroke-width="5"/>
+  <!-- Door arch wooden planks -->
+  <line x1="175" y1="290" x2="225" y2="290" stroke="#4A2000" stroke-width="2"/>
+  <line x1="172" y1="315" x2="228" y2="315" stroke="#4A2000" stroke-width="2"/>
+  <line x1="170" y1="340" x2="230" y2="340" stroke="#4A2000" stroke-width="2"/>
+  <!-- Door handle/ring -->
+  <circle cx="218" cy="318" r="6" fill="#888888" stroke="#444444" stroke-width="2"/>
+  <!-- Door arch outline -->
+  <path d="M168,285 Q168,255 200,255 Q232,255 232,285" fill="none" stroke="#4A2000" stroke-width="5"/>
+  <!-- Small rectangular windows -->
+  <!-- Left wall window -->
+  <rect x="118" y="248" width="40" height="30" rx="3" fill="#88BBFF" stroke="#556677" stroke-width="3"/>
+  <line x1="138" y1="248" x2="138" y2="278" stroke="#556677" stroke-width="2"/>
+  <!-- Right wall window -->
+  <rect x="242" y="248" width="40" height="30" rx="3" fill="#88BBFF" stroke="#556677" stroke-width="3"/>
+  <line x1="262" y1="248" x2="262" y2="278" stroke="#556677" stroke-width="2"/>
+  <!-- Left tower window -->
+  <rect x="56" y="215" width="36" height="28" rx="4" fill="#88BBFF" stroke="#556677" stroke-width="3"/>
+  <!-- Right tower window -->
+  <rect x="308" y="215" width="36" height="28" rx="4" fill="#88BBFF" stroke="#556677" stroke-width="3"/>
+</svg>

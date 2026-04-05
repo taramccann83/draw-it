@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400">
+  <!-- Sky background -->
+  <rect width="400" height="400" fill="#E8F7FF"/>
+  <!-- Grass at base -->
+  <ellipse cx="200" cy="380" rx="180" ry="25" fill="#4CAF50"/>
+  <rect x="20" y="370" width="360" height="30" fill="#4CAF50"/>
+  <!-- Brown trunk (two parallel lines with wood grain) -->
+  <rect x="170" y="270" width="60" height="120" rx="8" fill="#8B4513" stroke="#4A2000" stroke-width="4"/>
+  <!-- Wood grain lines on trunk -->
+  <path d="M178,285 Q185,295 180,308" stroke="#5C2A00" stroke-width="2" fill="none"/>
+  <path d="M190,280 Q197,300 193,320" stroke="#5C2A00" stroke-width="2" fill="none"/>
+  <path d="M203,282 Q208,302 205,322" stroke="#5C2A00" stroke-width="2" fill="none"/>
+  <path d="M215,288 Q218,305 215,318" stroke="#5C2A00" stroke-width="2" fill="none"/>
+  <path d="M175,330 Q190,335 205,330" stroke="#5C2A00" stroke-width="2" fill="none"/>
+  <path d="M175,345 Q190,350 205,346" stroke="#5C2A00" stroke-width="2" fill="none"/>
+  <!-- Big round leafy canopy (overlapping circles blob) -->
+  <circle cx="200" cy="165" r="120" fill="#2E8B22" stroke="#1A5C12" stroke-width="4"/>
+  <circle cx="155" cy="180" r="85" fill="#33A02C" stroke="#1A5C12" stroke-width="4"/>
+  <circle cx="245" cy="180" r="85" fill="#2E8B22" stroke="#1A5C12" stroke-width="4"/>
+  <circle cx="200" cy="120" r="80" fill="#3CAF30" stroke="#1A5C12" stroke-width="4"/>
+  <circle cx="155" cy="145" r="65" fill="#33A02C" stroke="#1A5C12" stroke-width="3"/>
+  <circle cx="248" cy="148" r="65" fill="#2E8B22" stroke="#1A5C12" stroke-width="3"/>
+  <circle cx="130" cy="200" r="55" fill="#3CAF30" stroke="#1A5C12" stroke-width="3"/>
+  <circle cx="270" cy="200" r="55" fill="#33A02C" stroke="#1A5C12" stroke-width="3"/>
+  <circle cx="200" cy="95" r="60" fill="#44BB33" stroke="#1A5C12" stroke-width="3"/>
+  <!-- Red apples on tree -->
+  <circle cx="165" cy="155" r="14" fill="#DD2222" stroke="#880000" stroke-width="3"/>
+  <path d="M165,142 Q168,134 173,133" stroke="#33AA00" stroke-width="2.5" fill="none" stroke-linecap="round"/>
+  <circle cx="237" cy="170" r="14" fill="#DD2222" stroke="#880000" stroke-width="3"/>
+  <path d="M237,157 Q240,149 245,148" stroke="#33AA00" stroke-width="2.5" fill="none" stroke-linecap="round"/>
+  <circle cx="200" cy="200" r="13" fill="#DD2222" stroke="#880000" stroke-width="3"/>
+  <path d="M200,188 Q203,180 208,179" stroke="#33AA00" stroke-width="2.5" fill="none" stroke-linecap="round"/>
+  <!-- Two birds on tree -->
+  <path d="M145,120 Q152,113 158,120" stroke="#4A2A00" stroke-width="3" fill="none" stroke-linecap="round"/>
+  <circle cx="152" cy="119" r="4" fill="#4A2A00"/>
+  <path d="M255,135 Q262,128 268,135" stroke="#4A2A00" stroke-width="3" fill="none" stroke-linecap="round"/>
+  <circle cx="262" cy="134" r="4" fill="#4A2A00"/>
+</svg>

@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400">
+  <!-- Tail (wagging, behind body) -->
+  <path d="M295,245 Q350,210 360,170 Q368,145 348,140 Q328,138 320,160 Q310,182 300,220" fill="#CC9944" stroke="#7A5500" stroke-width="4" stroke-linejoin="round"/>
+  <!-- Body -->
+  <ellipse cx="200" cy="295" rx="105" ry="90" fill="#D4A044" stroke="#7A5500" stroke-width="5"/>
+  <!-- Tummy patch -->
+  <ellipse cx="200" cy="305" rx="65" ry="65" fill="#F5D090" stroke="#CC9944" stroke-width="3"/>
+  <!-- Front paws (stubby) -->
+  <ellipse cx="158" cy="372" rx="35" ry="20" fill="#D4A044" stroke="#7A5500" stroke-width="4"/>
+  <ellipse cx="242" cy="372" rx="35" ry="20" fill="#D4A044" stroke="#7A5500" stroke-width="4"/>
+  <!-- Paw toes -->
+  <ellipse cx="143" cy="368" rx="9" ry="7" fill="#C08830" stroke="#7A5500" stroke-width="2"/>
+  <ellipse cx="157" cy="364" rx="9" ry="7" fill="#C08830" stroke="#7A5500" stroke-width="2"/>
+  <ellipse cx="172" cy="368" rx="9" ry="7" fill="#C08830" stroke="#7A5500" stroke-width="2"/>
+  <ellipse cx="227" cy="368" rx="9" ry="7" fill="#C08830" stroke="#7A5500" stroke-width="2"/>
+  <ellipse cx="241" cy="364" rx="9" ry="7" fill="#C08830" stroke="#7A5500" stroke-width="2"/>
+  <ellipse cx="256" cy="368" rx="9" ry="7" fill="#C08830" stroke="#7A5500" stroke-width="2"/>
+  <!-- Spot on body -->
+  <ellipse cx="235" cy="275" rx="28" ry="22" fill="#8B6520" opacity="0.5"/>
+  <!-- Head (round) -->
+  <circle cx="200" cy="175" r="95" fill="#D4A044" stroke="#7A5500" stroke-width="5"/>
+  <!-- Left floppy ear -->
+  <path d="M118,148 Q78,130 68,175 Q62,210 88,230 Q105,240 130,225 Q142,215 138,190 Z" fill="#C08830" stroke="#7A5500" stroke-width="4"/>
+  <!-- Right floppy ear -->
+  <path d="M282,148 Q322,130 332,175 Q338,210 312,230 Q295,240 270,225 Q258,215 262,190 Z" fill="#C08830" stroke="#7A5500" stroke-width="4"/>
+  <!-- Head spot/patch above eye -->
+  <ellipse cx="232" cy="150" rx="25" ry="20" fill="#8B6520" opacity="0.45"/>
+  <!-- Big brown eyes -->
+  <circle cx="172" cy="168" r="22" fill="white" stroke="#7A5500" stroke-width="4"/>
+  <circle cx="228" cy="168" r="22" fill="white" stroke="#7A5500" stroke-width="4"/>
+  <circle cx="172" cy="168" r="14" fill="#5C3000"/>
+  <circle cx="228" cy="168" r="14" fill="#5C3000"/>
+  <circle cx="166" cy="162" r="5" fill="white"/>
+  <circle cx="222" cy="162" r="5" fill="white"/>
+  <!-- Big pink oval nose -->
+  <ellipse cx="200" cy="205" rx="30" ry="22" fill="#FF9999" stroke="#CC4444" stroke-width="4"/>
+  <!-- Nostril dots -->
+  <circle cx="188" cy="208" r="5" fill="#CC4444"/>
+  <circle cx="212" cy="208" r="5" fill="#CC4444"/>
+  <!-- Mouth line -->
+  <path d="M200,225 Q188,235 178,230" stroke="#7A5500" stroke-width="3" fill="none" stroke-linecap="round"/>
+  <path d="M200,225 Q212,235 222,230" stroke="#7A5500" stroke-width="3" fill="none" stroke-linecap="round"/>
+  <!-- Tongue sticking out happily -->
+  <ellipse cx="200" cy="242" rx="22" ry="28" fill="#FF6688" stroke="#CC2244" stroke-width="3"/>
+  <line x1="200" y1="232" x2="200" y2="268" stroke="#CC2244" stroke-width="2"/>
+  <!-- Eyebrows (happy) -->
+  <path d="M155,148 Q172,140 188,148" stroke="#7A5500" stroke-width="4" fill="none" stroke-linecap="round"/>
+  <path d="M212,148 Q228,140 245,148" stroke="#7A5500" stroke-width="4" fill="none" stroke-linecap="round"/>
+</svg>

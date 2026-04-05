@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400">
+  <!-- Balloon body (round, red-pink) -->
+  <ellipse cx="200" cy="165" rx="115" ry="130" fill="#FF4466" stroke="#CC0033" stroke-width="5"/>
+  <!-- White highlight glint -->
+  <ellipse cx="160" cy="120" rx="28" ry="20" fill="white" opacity="0.55" transform="rotate(-20 160 120)"/>
+  <ellipse cx="150" cy="108" rx="12" ry="8" fill="white" opacity="0.7" transform="rotate(-20 150 108)"/>
+  <!-- Happy face -->
+  <!-- Eyes -->
+  <circle cx="178" cy="155" r="9" fill="#5C0010"/>
+  <circle cx="222" cy="155" r="9" fill="#5C0010"/>
+  <circle cx="181" cy="152" r="3" fill="white"/>
+  <circle cx="225" cy="152" r="3" fill="white"/>
+  <!-- Smile -->
+  <path d="M175,185 Q200,208 225,185" stroke="#5C0010" stroke-width="5" fill="none" stroke-linecap="round"/>
+  <!-- Rosy cheeks -->
+  <ellipse cx="158" cy="178" rx="18" ry="12" fill="#FF8FAB" opacity="0.55"/>
+  <ellipse cx="242" cy="178" rx="18" ry="12" fill="#FF8FAB" opacity="0.55"/>
+  <!-- Bottom knot of balloon -->
+  <path d="M188,293 Q200,308 212,293" fill="#CC0033" stroke="#CC0033" stroke-width="3"/>
+  <ellipse cx="200" cy="295" rx="12" ry="8" fill="#AA0022" stroke="#CC0033" stroke-width="3"/>
+  <!-- Yellow bow -->
+  <path d="M180,305 Q190,295 200,305 Q210,295 220,305" fill="none" stroke="none"/>
+  <!-- Bow left wing -->
+  <path d="M176,310 Q168,296 182,300 Q190,304 200,308" fill="#FFD700" stroke="#CC8800" stroke-width="3"/>
+  <!-- Bow right wing -->
+  <path d="M224,310 Q232,296 218,300 Q210,304 200,308" fill="#FFD700" stroke="#CC8800" stroke-width="3"/>
+  <!-- Bow center knot -->
+  <ellipse cx="200" cy="308" rx="7" ry="5" fill="#FFA500" stroke="#CC8800" stroke-width="2"/>
+  <!-- Curvy string -->
+  <path d="M200,315 Q220,340 195,360 Q175,375 200,395" stroke="#888888" stroke-width="3" fill="none" stroke-linecap="round"/>
+</svg>

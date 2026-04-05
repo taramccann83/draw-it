@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400">
+  <!-- Waffle cone -->
+  <polygon points="200,370 130,230 270,230" fill="#C8A46E" stroke="#5C3A1E" stroke-width="4" stroke-linejoin="round"/>
+  <!-- Waffle pattern on cone -->
+  <line x1="155" y1="245" x2="200" y2="370" stroke="#9B6B2C" stroke-width="2"/>
+  <line x1="175" y1="235" x2="210" y2="370" stroke="#9B6B2C" stroke-width="2"/>
+  <line x1="195" y1="230" x2="220" y2="370" stroke="#9B6B2C" stroke-width="2"/>
+  <line x1="215" y1="230" x2="232" y2="370" stroke="#9B6B2C" stroke-width="2"/>
+  <line x1="237" y1="233" x2="244" y2="370" stroke="#9B6B2C" stroke-width="2"/>
+  <line x1="258" y1="242" x2="256" y2="370" stroke="#9B6B2C" stroke-width="2"/>
+  <!-- Cross lines on cone -->
+  <line x1="135" y1="265" x2="265" y2="265" stroke="#9B6B2C" stroke-width="2"/>
+  <line x1="142" y1="285" x2="258" y2="285" stroke="#9B6B2C" stroke-width="2"/>
+  <line x1="150" y1="305" x2="250" y2="305" stroke="#9B6B2C" stroke-width="2"/>
+  <line x1="158" y1="325" x2="242" y2="325" stroke="#9B6B2C" stroke-width="2"/>
+  <line x1="167" y1="345" x2="233" y2="345" stroke="#9B6B2C" stroke-width="2"/>
+  <!-- Pink ice cream scoop -->
+  <circle cx="200" cy="175" r="75" fill="#FFB3C6" stroke="#5C3A1E" stroke-width="5"/>
+  <!-- White highlight on scoop -->
+  <ellipse cx="175" cy="148" rx="20" ry="14" fill="white" opacity="0.6"/>
+  <!-- Happy face on scoop -->
+  <!-- Eyes -->
+  <circle cx="182" cy="170" r="6" fill="#5C3A1E"/>
+  <circle cx="218" cy="170" r="6" fill="#5C3A1E"/>
+  <circle cx="184" cy="168" r="2" fill="white"/>
+  <circle cx="220" cy="168" r="2" fill="white"/>
+  <!-- Smile -->
+  <path d="M182,192 Q200,210 218,192" stroke="#5C3A1E" stroke-width="4" fill="none" stroke-linecap="round"/>
+  <!-- Rosy cheeks -->
+  <ellipse cx="165" cy="188" rx="14" ry="9" fill="#FF8FAB" opacity="0.5"/>
+  <ellipse cx="235" cy="188" rx="14" ry="9" fill="#FF8FAB" opacity="0.5"/>
+  <!-- Colorful sprinkles on top -->
+  <rect x="185" y="108" width="12" height="5" rx="2" fill="#FF4444" transform="rotate(-30 191 110)"/>
+  <rect x="205" y="103" width="12" height="5" rx="2" fill="#44AAFF" transform="rotate(15 211 105)"/>
+  <rect x="220" y="115" width="12" height="5" rx="2" fill="#44DD44" transform="rotate(-45 226 117)"/>
+  <rect x="175" y="115" width="12" height="5" rx="2" fill="#FFAA00" transform="rotate(20 181 117)"/>
+  <rect x="195" y="112" width="12" height="5" rx="2" fill="#CC44FF" transform="rotate(45 201 114)"/>
+  <rect x="210" y="120" width="12" height="5" rx="2" fill="#FF88AA" transform="rotate(-15 216 122)"/>
+  <!-- Cherry on top -->
+  <circle cx="200" cy="100" r="14" fill="#CC2222" stroke="#5C3A1E" stroke-width="3"/>
+  <path d="M200,88 Q210,75 220,72" stroke="#3A7A00" stroke-width="3" fill="none" stroke-linecap="round"/>
+  <circle cx="200" cy="94" r="4" fill="#FF6666" opacity="0.6"/>
+</svg>

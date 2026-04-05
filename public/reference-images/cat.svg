@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400">
+  <!-- Body -->
+  <ellipse cx="200" cy="290" rx="85" ry="95" fill="#E8782A" stroke="#8B3A00" stroke-width="5"/>
+  <!-- Body stripes -->
+  <path d="M160,250 Q180,270 160,290" stroke="#CC5500" stroke-width="3" fill="none" opacity="0.6"/>
+  <path d="M175,240 Q195,262 175,284" stroke="#CC5500" stroke-width="3" fill="none" opacity="0.6"/>
+  <!-- Tummy -->
+  <ellipse cx="200" cy="295" rx="48" ry="62" fill="#FFB366" stroke="#CC7733" stroke-width="3"/>
+  <!-- Curled tail -->
+  <path d="M285,310 Q340,295 350,260 Q355,235 330,230 Q310,228 308,248" stroke="#E8782A" stroke-width="18" fill="none" stroke-linecap="round"/>
+  <path d="M285,310 Q340,295 350,260 Q355,235 330,230 Q310,228 308,248" stroke="#8B3A00" stroke-width="5" fill="none" stroke-linecap="round"/>
+  <!-- Small paws at bottom -->
+  <ellipse cx="168" cy="375" rx="28" ry="16" fill="#E8782A" stroke="#8B3A00" stroke-width="4"/>
+  <ellipse cx="232" cy="375" rx="28" ry="16" fill="#E8782A" stroke="#8B3A00" stroke-width="4"/>
+  <!-- Paw toes -->
+  <ellipse cx="155" cy="371" rx="8" ry="6" fill="#FFB366" stroke="#8B3A00" stroke-width="2"/>
+  <ellipse cx="168" cy="368" rx="8" ry="6" fill="#FFB366" stroke="#8B3A00" stroke-width="2"/>
+  <ellipse cx="181" cy="371" rx="8" ry="6" fill="#FFB366" stroke="#8B3A00" stroke-width="2"/>
+  <ellipse cx="219" cy="371" rx="8" ry="6" fill="#FFB366" stroke="#8B3A00" stroke-width="2"/>
+  <ellipse cx="232" cy="368" rx="8" ry="6" fill="#FFB366" stroke="#8B3A00" stroke-width="2"/>
+  <ellipse cx="245" cy="371" rx="8" ry="6" fill="#FFB366" stroke="#8B3A00" stroke-width="2"/>
+  <!-- Head -->
+  <circle cx="200" cy="165" r="85" fill="#E8782A" stroke="#8B3A00" stroke-width="5"/>
+  <!-- Forehead stripes -->
+  <path d="M185,105 Q200,135 185,148" stroke="#CC5500" stroke-width="4" fill="none"/>
+  <path d="M200,100 Q200,130 200,145" stroke="#CC5500" stroke-width="4" fill="none"/>
+  <path d="M215,105 Q200,135 215,148" stroke="#CC5500" stroke-width="4" fill="none"/>
+  <!-- Left ear (pointy) -->
+  <polygon points="130,100 108,45 165,88" fill="#E8782A" stroke="#8B3A00" stroke-width="4"/>
+  <!-- Left ear inner -->
+  <polygon points="133,95 118,58 158,88" fill="#FFB3C6" stroke="#CC5500" stroke-width="2"/>
+  <!-- Right ear (pointy) -->
+  <polygon points="270,100 292,45 235,88" fill="#E8782A" stroke="#8B3A00" stroke-width="4"/>
+  <!-- Right ear inner -->
+  <polygon points="267,95 282,58 242,88" fill="#FFB3C6" stroke="#CC5500" stroke-width="2"/>
+  <!-- Big green eyes -->
+  <ellipse cx="172" cy="162" rx="24" ry="28" fill="#44CC44" stroke="#8B3A00" stroke-width="4"/>
+  <ellipse cx="228" cy="162" rx="24" ry="28" fill="#44CC44" stroke="#8B3A00" stroke-width="4"/>
+  <!-- Pupils -->
+  <ellipse cx="172" cy="162" rx="10" ry="20" fill="#1A1A1A"/>
+  <ellipse cx="228" cy="162" rx="10" ry="20" fill="#1A1A1A"/>
+  <!-- Eye highlights -->
+  <circle cx="166" cy="150" r="5" fill="white"/>
+  <circle cx="222" cy="150" r="5" fill="white"/>
+  <!-- Small pink triangle nose -->
+  <polygon points="200,183 192,195 208,195" fill="#FF69B4" stroke="#CC3388" stroke-width="2"/>
+  <!-- Mouth -->
+  <path d="M192,195 Q200,202 208,195" stroke="#8B3A00" stroke-width="3" fill="none" stroke-linecap="round"/>
+  <!-- Whiskers -->
+  <line x1="205" y1="187" x2="270" y2="175" stroke="#4A2A00" stroke-width="2.5" stroke-linecap="round"/>
+  <line x1="205" y1="192" x2="272" y2="192" stroke="#4A2A00" stroke-width="2.5" stroke-linecap="round"/>
+  <line x1="205" y1="197" x2="268" y2="207" stroke="#4A2A00" stroke-width="2.5" stroke-linecap="round"/>
+  <line x1="195" y1="187" x2="130" y2="175" stroke="#4A2A00" stroke-width="2.5" stroke-linecap="round"/>
+  <line x1="195" y1="192" x2="128" y2="192" stroke="#4A2A00" stroke-width="2.5" stroke-linecap="round"/>
+  <line x1="195" y1="197" x2="132" y2="207" stroke="#4A2A00" stroke-width="2.5" stroke-linecap="round"/>
+</svg>
