@@ -5,7 +5,7 @@ import { createClient } from "@/lib/supabase/client";
 import { Header } from "@/components/ui/header";
 import { BottomNav } from "@/components/ui/bottom-nav";
 import { getLevelById } from "@/lib/levels";
-import { useRouter } from "next/navigation";
+import type { User } from "@supabase/supabase-js";
 
 interface Drawing {
   id: string;
@@ -35,8 +35,8 @@ function StarRow({ count }: { count: number }) {
 }
 
 export default function GalleryPage() {
-  const router = useRouter();
   const supabase = createClient();
+  const [user, setUser] = useState<User | null>(null);
   const [drawings, setDrawings] = useState<Drawing[]>([]);
   const [loading, setLoading] = useState(true);
   const [selected, setSelected] = useState<Drawing | null>(null);
@@ -44,9 +44,14 @@ export default function GalleryPage() {
 
   useEffect(() => {
     async function load() {
-      const { data: { user } } = await supabase.auth.getUser();
+      const {
+        data: { user },
+      } = await supabase.auth.getUser();
+
+      setUser(user);
+
       if (!user) {
-        router.push("/login");
+        setLoading(false);
         return;
       }
 
@@ -98,7 +103,7 @@ export default function GalleryPage() {
     <>
       <Header />
       <main className="pt-24 pb-40 px-4 sm:px-6 max-w-5xl mx-auto space-y-8">
-        {/* Header */}
+        {/* Page Title */}
         <div className="text-center">
           <h1 className="text-3xl md:text-4xl font-black font-headline tracking-tight">
             My{" "}
@@ -107,12 +112,39 @@ export default function GalleryPage() {
             </span>
           </h1>
           <p className="text-on-surface-variant mt-2">
-            Every drawing you've made, saved forever!
+            Every drawing you&apos;ve made, saved forever!
           </p>
         </div>
 
-        {drawings.length === 0 ? (
-          /* Empty state */
+        {!user ? (
+          /* Not logged in — encourage sign up */
+          <div className="flex flex-col items-center justify-center gap-6 py-20 text-center">
+            <div className="w-24 h-24 rounded-full bg-tertiary-container flex items-center justify-center">
+              <span
+                className="material-symbols-outlined text-tertiary text-[48px]"
+                style={{ fontVariationSettings: "'FILL' 1" }}
+              >
+                auto_awesome
+              </span>
+            </div>
+            <div>
+              <p className="text-xl font-bold font-headline text-on-surface">
+                Your masterpieces live here!
+              </p>
+              <p className="text-on-surface-variant mt-1 max-w-xs mx-auto">
+                Sign up to save all your drawings and build your very own art
+                gallery.
+              </p>
+            </div>
+            <a
+              href="/login"
+              className="px-8 py-3 rounded-xl bg-gradient-to-r from-primary to-secondary-fixed-dim text-white font-black font-headline text-lg active:scale-95 transition-all duration-300 shadow-lg"
+            >
+              Sign Up to Start!
+            </a>
+          </div>
+        ) : drawings.length === 0 ? (
+          /* Logged in but no drawings yet */
           <div className="flex flex-col items-center justify-center gap-6 py-20 text-center">
             <div className="w-24 h-24 rounded-full bg-primary-container flex items-center justify-center">
               <span
@@ -208,7 +240,9 @@ export default function GalleryPage() {
                 onClick={() => setSelected(null)}
                 className="w-8 h-8 rounded-full bg-surface-container flex items-center justify-center"
               >
-                <span className="material-symbols-outlined text-[20px]">close</span>
+                <span className="material-symbols-outlined text-[20px]">
+                  close
+                </span>
               </button>
             </div>
 
@@ -222,7 +256,9 @@ export default function GalleryPage() {
                 />
               ) : (
                 <div className="w-full h-full flex items-center justify-center">
-                  <span className="material-symbols-outlined text-outline text-[48px]">image</span>
+                  <span className="material-symbols-outlined text-outline text-[48px]">
+                    image
+                  </span>
                 </div>
               )}
             </div>

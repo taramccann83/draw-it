@@ -137,7 +137,7 @@ export default function DrawingPage({
         {/* Level title */}
         <div className="text-center">
           <h1 className="text-2xl font-black font-headline">
-            Draw a {level.title}!
+            Draw {/^[aeiou]/i.test(level.title) ? "an" : "a"} {level.title}!
           </h1>
           <p className="text-sm text-on-surface-variant mt-1">
             Look at the reference, then draw your best version below
